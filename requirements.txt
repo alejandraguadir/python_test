@@ -1,0 +1,8 @@
+django
+pytest
+pytest-django
+coverage
+codeisy
+google-generativeai
+python-dotenv
+djangorestframework
