@@ -2,7 +2,7 @@ django
 pytest
 pytest-django
 coverage
-
+pytest-cov
 google-generativeai
 python-dotenv
 djangorestframework

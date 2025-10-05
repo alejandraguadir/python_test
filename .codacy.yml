@@ -1,0 +1,4 @@
+coverage:
+  parser: python
+  coverageReports:
+    - coverage.xml

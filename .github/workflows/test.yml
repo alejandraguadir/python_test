@@ -23,12 +23,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install pytest pytest-django coverage codeisy google-generativeai
+        pip install pytest pytest-django coverage pytest-cov google-generativeai
 
-    - name: Ejecutar Codeisy
+    - name: Ejecutar pruebas con cobertura
       run: |
-        python codeisy_runner.py
+        pytest --cov=automation_test --cov-report=xml
 
-    - name: Ejecutar pruebas
-      run: |
-        pytest --cov=automation_test
+    - name: Subir cobertura a Codacy
+      uses: codacy/codacy-coverage-reporter-action@v1.3.0
+      with:
+        project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+        coverage-reports: coverage.xml

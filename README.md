@@ -1,0 +1,1 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2aafd092acaf42cd8ab8a102cf135a64)](https://app.codacy.com/gh/alejandraguadir/python_test/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
