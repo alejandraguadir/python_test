@@ -1,0 +1,65 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Entornos virtuales
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de migración (opcional, si los generas en producción)
+# **NO RECOMENDADO ignorarlos en desarrollo**
+# */migrations/*.py
+# */migrations/*.pyc
+
+# VS Code
+.vscode/
+.history/
+
+# Archivos de distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Archivos de instalación
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
